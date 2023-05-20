@@ -325,3 +325,59 @@ main {
     padding: 5px 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+
+/* footer------------------------------------------------------  */
+
+.footerContainer {
+    padding: 10px 200px;
+    width: 100vw;
+    margin-top: 50px;
+    background-color: #e8e8ec;
+
+}
+
+.footerContainer .subFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.footerContainer .subFooter .subLinks,
+.socialLinks,
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #0f3052;
+    flex: 1;
+
+}
+
+.footerContainer .subFooter h2 {
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.footerContainer .socialLinks .socialIcon {
+    font-size: 20px;
+    color: #0f3052;
+    transition: 0.6s;
+    margin-right: 20px;
+}
+
+.footerContainer .copyRight {
+    text-align: center;
+    color: #0f3052;
+    margin-bottom: 20px;
+    margin-top: 100px;
+
+}
+
+.footerContainer .copyRight h4 {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+}
