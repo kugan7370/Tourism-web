@@ -225,23 +225,33 @@ a {
 }
 
 .destinationContainer .details .title,
-.location,
 .rating {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.destinationContainer .location i {
+    color: #c92901;
+    font-size: 15px;
+}
+
+.destinationContainer .location {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
 .destinationContainer .location,
 .location p {
-    color: #c2c0c1;
+    color: #c2c0c0;
 }
 
 .destinationContainer .ratings {
     display: flex;
-    margin-right: 5px;
     color: #f2bc56;
     font-size: 15px;
+    gap: 5px;
 
 }
 
